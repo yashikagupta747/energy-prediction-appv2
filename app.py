@@ -46,12 +46,12 @@ def load_model_components():
     """Load all model components with caching for better performance"""
     try:
         # Load from models directory
-        model = joblib.load('models/energy_model.pkl')
-        scaler = joblib.load('models/scaler.pkl')
-        le_building = joblib.load('models/le_building.pkl')
-        le_day = joblib.load('models/le_day.pkl')
+        model = joblib.load('energy_model.pkl')
+        scaler = joblib.load('scaler.pkl')
+        le_building = joblib.load('le_building.pkl')
+        le_day = joblib.load('le_day.pkl')
         
-        with open('models/model_info.json', 'r') as f:
+        with open('model_info.json', 'r') as f:
             model_info = json.load(f)
             
         return model, scaler, le_building, le_day, model_info
