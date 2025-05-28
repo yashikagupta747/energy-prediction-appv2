@@ -1,0 +1,21 @@
+{
+    "model_name": "Random Forest",
+    "model_type": "RandomForestRegressor",
+    "r2_score": 0.977999143234864,
+    "rmse": 122.87198012868443,
+    "mae": 100.57408500000047,
+    "features": [
+        "Square Footage",
+        "Number of Occupants",
+        "Appliances Used",
+        "Average Temperature",
+        "Building Type Encoded",
+        "Day of Week Encoded",
+        "Occupancy_Density",
+        "Appliances_per_Occupant",
+        "Size_Category_Encoded"
+    ],
+    "training_date": "2025-05-28",
+    "sklearn_version": "1.3.0",
+    "project_version": "2.0"
+}
